@@ -9,7 +9,7 @@ syntax of middleware is:
 <h1>What is next()?</h1>
 Next() is a middleware function that calls for the control of another middleware once the code is completed. You can wait till the network operations are completed before you go to the next step. 
 the code i have writen for this was
-
+<!-- 
 const express = require ('express')
 const app = express();
 const middleware1 = (req,res,next) =>{
@@ -35,7 +35,7 @@ app.get('/link3',(req,res)=>{
 })
 app.listen(5000, () =>{
     console.log("server started")
-})
+}) -->
 
 in this i have used two middlewave and 1middlewave is applicable for only two express routes
 and the next will be used for the express routes

@@ -39,6 +39,6 @@ app.listen(5000, () =>{
 
 in this i have used two middlewave and 1middlewave is applicable for only two express routes
 and the next will be used for the express routes
-for   ---> app.use(middleware2);
+for   app.use(middleware2);
 the app.use  is used when we want to use the middilewave for all the routes
 
